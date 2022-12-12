@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/titlePower"
+        style="@style/Widget.MaterialComponents.Button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Power"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_lock_power_off" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/textviewborder"
+        android:gravity="center"
+        android:text="LabByteDance"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/titleEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Edit"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_edit" />
+
+
+
+</LinearLayout>
+
+
+

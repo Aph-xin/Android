@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lab3bg2" >
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="object animation"
+        android:textAllCaps="true"
+        android:textColor="@color/purple_200"
+        android:textSize="32sp"
+        android:textStyle="bold|italic" />
+    <ImageView
+        android:id="@+id/iv_robot"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/lab3ani" />
+</FrameLayout>

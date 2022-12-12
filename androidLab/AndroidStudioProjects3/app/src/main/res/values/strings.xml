@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_text">First Fragment</string>
+    <string name="second_text">Second Fragment</string>
+    <string name="third_text">Third Fragment</string>
+    <string name="replace_btn_text">Replace</string>
+</resources>
